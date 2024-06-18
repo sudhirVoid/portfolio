@@ -15,20 +15,18 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-3xl sm:text-4xl lg:text-7xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{" "}
+              Hello, I&apos;m{" Sudhir "}
             </span>
             <br></br>
             <TypeAnimation
-              sequence={[
-                "Judy",
+              sequence={[             
+                "Software Engineer",
                 1000,
-                "Web Developer",
+                "Full Stack Developer",
                 1000,
-                "Mobile Developer",
-                1000,
-                "UI/UX Designer",
+                "Problem Solver",
                 1000,
               ]}
               wrapper="span"
@@ -37,8 +35,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            A dedicated programmer to solve complex problems and helped many customers to solve really complex problems and automate their processes saving 100&apos;s of work hours and good amount of money. Let&apos;s create something great again together.
           </p>
           <div>
             <Link
@@ -48,11 +45,12 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+            target="_blank"
+              href="https://docs.google.com/document/d/195hDiuaEvGCCzeI26VOIc098KrgqKKKfpmEs2H6td3k/edit?usp=sharing"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
+                View CV
               </span>
             </Link>
           </div>

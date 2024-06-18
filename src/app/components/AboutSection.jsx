@@ -15,6 +15,8 @@ const TAB_DATA = [
         <li>Sequelize</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>Angular</li>
+        <li>.NET MVC</li>
       </ul>
     ),
   },
@@ -23,8 +25,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Chandigarh Univeristy, India &nbsp;&nbsp; : 8.73 GPA</li>
       </ul>
     ),
   },
@@ -33,8 +34,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Azure Fundamentals</li>
+        <li>Soft Computing from NPTEL</li>
       </ul>
     ),
   },
@@ -57,12 +58,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          I am a dynamic Full Stack Developer driven by the mindset of LEARN and IMPLEMENT. My passion for creating innovative solutions is backed by hands-on experience with a robust tech stack. I thrive on solving complex business challenges and have successfully tackled numerous issues for clients in the energy domain. As a quick learner, I relish the opportunity to collaborate with equally passionate teams. I am dedicated to teamwork and excited to contribute to the development of exceptional applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
