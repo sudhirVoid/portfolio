@@ -35,7 +35,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            A dedicated programmer to solve complex problems and helped many customers to solve really complex problems and automate their processes saving 100&apos;s of work hours and good amount of money. Let&apos;s create something great again together.
+            {`With a deep commitment to tackling complex challenges, I've helped numerous clients streamline their operations, automate processes, and save hundreds of work hours—resulting in significant cost savings. Let's collaborate to turn your next big idea into reality. Ready to make an impact together? Reach out, and let's build something extraordinary.`}
           </p>
           <div>
             <Link

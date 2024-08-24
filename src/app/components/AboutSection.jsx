@@ -10,7 +10,7 @@ const TAB_DATA = [
     content: (
       <div className="flex flex-wrap gap-3 border-coolGray-800">
   <div className="flex-1 border border-coolGray-800 p-4 rounded-lg">
-    <h3 className="text-lg font-semibold">FrontEnd Tech</h3>
+    <h3 className="text-lg font-semibold">FrontEnd</h3>
     <ul className="list-disc pl-5">
       <li>HTML/CSS</li>
       <li>Tailwind</li>
@@ -20,7 +20,7 @@ const TAB_DATA = [
   </div>
 
   <div className="flex-1 border border-coolGray-800 p-4 rounded-lg">
-    <h3 className="text-lg font-semibold">BackEnd Tech</h3>
+    <h3 className="text-lg font-semibold">BackEnd</h3>
     <ul className="list-disc pl-5">
       <li>ExpressJS</li>
       <li>.NET MVC</li>
@@ -50,7 +50,7 @@ const TAB_DATA = [
   </div>
 
   <div className="flex-1 border border-coolGray-800 p-4 rounded-lg">
-    <h3 className="text-lg font-semibold">AI Tech</h3>
+    <h3 className="text-lg font-semibold">AI</h3>
     <ul className="list-disc pl-5">
       <li>LLM Integrations</li>
       <li>LangChain</li>
@@ -75,19 +75,29 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className="list-disc pl-2">
+      <div className="flex flex-wrap gap-3 border-coolGray-800">
+  <div className="flex-1 border border-coolGray-800 p-4 rounded-lg">
+  <ul className="list-disc pl-2">
         <li>Chandigarh Univeristy, India &nbsp;&nbsp; : 8.73 GPA</li>
       </ul>
+  </div>
+  </div>
+      
     ),
   },
   {
     title: "Certifications",
     id: "certifications",
     content: (
-      <ul className="list-disc pl-2">
+      <div className="flex flex-wrap gap-3 border-coolGray-800">
+  <div className="flex-1 border border-coolGray-800 p-4 rounded-lg">
+  <ul className="list-disc pl-2">
         <li>Azure Fundamentals</li>
         <li>Soft Computing from NPTEL</li>
       </ul>
+  </div>
+  </div>
+
     ),
   },
 ];
