@@ -8,16 +8,67 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Angular</li>
-        <li>.NET MVC</li>
-      </ul>
+      <div className="flex flex-wrap gap-3 border-coolGray-800">
+  <div className="flex-1 border border-coolGray-800 p-4 rounded-lg">
+    <h3 className="text-lg font-semibold">FrontEnd Tech</h3>
+    <ul className="list-disc pl-5">
+      <li>HTML/CSS</li>
+      <li>Tailwind</li>
+      <li>Angular</li>
+      <li>React</li>
+    </ul>
+  </div>
+
+  <div className="flex-1 border border-coolGray-800 p-4 rounded-lg">
+    <h3 className="text-lg font-semibold">BackEnd Tech</h3>
+    <ul className="list-disc pl-5">
+      <li>ExpressJS</li>
+      <li>.NET MVC</li>
+      <li>Spring Boot</li>
+      <li>Kafka, RabbitMQ</li>
+    </ul>
+  </div>
+
+  <div className="flex-1 border border-coolGray-800 p-4 rounded-lg">
+    <h3 className="text-lg font-semibold">Languages</h3>
+    <ul className="list-disc pl-5">
+      <li>TypeScript</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>Python</li>
+    </ul>
+  </div>
+
+  <div className="flex-1 border border-coolGray-800 p-4 rounded-lg">
+    <h3 className="text-lg font-semibold">Databases</h3>
+    <ul className="list-disc pl-5">
+      <li>MS-SQL</li>
+      <li>PostgreSQL</li>
+      <li>Redis</li>
+      <li>Vector Databases</li>
+    </ul>
+  </div>
+
+  <div className="flex-1 border border-coolGray-800 p-4 rounded-lg">
+    <h3 className="text-lg font-semibold">AI Tech</h3>
+    <ul className="list-disc pl-5">
+      <li>LLM Integrations</li>
+      <li>LangChain</li>
+      <li>Agent Development</li>
+    </ul>
+  </div>
+
+  <div className="flex-1 border border-coolGray-800 p-4 rounded-lg">
+    <h3 className="text-lg font-semibold">Other Tech</h3>
+    <ul className="list-disc pl-5">
+      <li>Azure</li>
+      <li>Version Control</li>
+      <li>Agile Processes</li>
+    </ul>
+  </div>
+</div>
+
+
     ),
   },
   {
