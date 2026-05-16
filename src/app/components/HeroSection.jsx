@@ -22,11 +22,13 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[             
-                "Software Engineer",
+                "AI Engineer",
+                1000,
+                "LLM & Agent Developer",
                 1000,
                 "Full Stack Developer",
                 1000,
-                "Problem Solver",
+                "Azure Certified",
                 1000,
               ]}
               wrapper="span"
@@ -35,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            {`With a deep commitment to tackling complex challenges, I've helped numerous clients streamline their operations, automate processes, and save hundreds of work hours—resulting in significant cost savings. Let's collaborate to turn your next big idea into reality. Ready to make an impact together? Reach out, and let's build something extraordinary.`}
+            {`AI Engineer specializing in LLM orchestration, RAG architectures, and multi-agent systems. Built production AI solutions using Azure AI Foundry, LangChain, and MCP servers. Azure Developer Associate certified with 3+ years of experience building high-throughput APIs (1400 req/sec) and enterprise-grade applications. Let's build intelligent systems together.`}
           </p>
           <div>
             <Link

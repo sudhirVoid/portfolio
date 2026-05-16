@@ -7,48 +7,57 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Automation Projects",
-    description: "Worked on Many Autoamtion Projects for the clients. The automation that I have perfomed mainly is Martech automation where we designed a product that enables user to make flows and execute them based on lead generated. Also worked on Billing Automation projects for big energy domain clients.",
+    title: "🏆 SmartGrid AI (Hackathon Winner)",
+    description: "Company-wide hackathon winning AI-powered energy consumption prediction simulator. Operators can visualize future consumption patterns and interact with LIDA (Microsoft's visualization LLM) for intelligent chart plotting. Built with Azure Event Grid, NestJS, React, and advanced LLM orchestration.",
     image: "/images/projects/1.jpg",
-    tag: ["All", "Web","Automation"],
+    tag: ["All", "AI", "Hackathon"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "SkillGPT",
-    description: "This enables user to enter the title they want to learn. With the power of Generative AI we generate the structured chapters for them so that they can grasp the content in short period of time.",
+    title: "🏆 Onboardly (Hackathon Winner)",
+    description: "Company-wide hackathon winning multi-agentic AI hiring platform. Parses candidate data from GitHub, LinkedIn, and web to validate JD alignment. Features AI-powered video interviews using custom agents and MCP servers. Built with A2A protocol, Azure Functions, NodeJS, Redis, and Elasticsearch.",
     image: "/images/projects/2.png",
-    tag: ["All", "Web", "Angular", "NodeJS"],
-    gitUrl: "https://github.com/sudhirVoid/skillGPT",
-    previewUrl: "https://skillgpt.netlify.app/",
+    tag: ["All", "AI", "Hackathon"],
+    gitUrl: "/",
+    previewUrl: "/",
   },
   {
     id: 3,
-    title: "Self Driving Car",
-    description: "The concept of Behavioural Cloning is used where we find the pattern of driver in specific scenario. Then those patterns are trained to the model and self driving car is tested in different scenario.",
+    title: "🤖 Immigration RFE Assistant",
+    description: "AI-powered tool for paralegals in USA to streamline corporate immigration RFE (Request for Evidence) document processing. Uses Azure AI Foundry, RAG architectures, and LLM orchestration to assist with complex immigration workflows and document generation.",
     image: "/images/projects/3.jpg",
-    tag: ["All", "Web"],
+    tag: ["All", "AI"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Creative Child",
-    description: "A platform to practice general Computer Science related Questions.",
+    title: "📚 SkillGPT",
+    description: "GenAI-powered personalized learning system with RazorPay integration. Users enter topics they want to learn, and the system generates structured chapters using Chain of Thought prompting and controlled generation techniques. Built with Angular, NodeJS, and Azure APIM.",
     image: "/images/projects/4.png",
-    tag: ["All", "Web","API Handling"],
-    gitUrl: "https://github.com/sudhirVoid/creativeChild",
-    previewUrl: "https://creativechild.netlify.app/",
+    tag: ["All", "AI", "Web"],
+    gitUrl: "https://github.com/sudhirVoid/skillGPT",
+    previewUrl: "https://skillgpt.netlify.app/",
   },
   {
     id: 5,
-    title: "Mentor And Freelancer",
-    description: "I am always open to help the students in their final year struggling to complete their project. I use to provide them mentorship so with proper guidance they can follow the right path and complete their deadline in time.",
+    title: "⚡ MarTech AI Platform",
+    description: "Event-driven, multi-tenant marketing automation platform with GenAI-powered SQL generation and RAG agents. Automates prospect segmentation and customer interactions while managing large-scale data across SQL and NoSQL databases. Features LangChain, Dialogflow, and context engineering.",
     image: "/images/projects/5.jpg",
-    tag: ["All", "Web","API Handling"],
-    gitUrl: "https://github.com/sudhirVoid/creativeChild",
-    previewUrl: "https://creativechild.netlify.app/",
+    tag: ["All", "AI", "Automation"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "🔬 Eye Disease Detection (Published)",
+    description: "Deep Learning research published at ICCPCT 2023. Voting-based approach training 5 Keras applications (ResNet, Xception, etc.) for eye disease prediction. DOI: 10.1109/ICCPCT58313.2023.10245175",
+    image: "/images/projects/3.jpg",
+    tag: ["All", "AI", "Research"],
+    gitUrl: "https://doi.org/10.1109/ICCPCT58313.2023.10245175",
+    previewUrl: "https://doi.org/10.1109/ICCPCT58313.2023.10245175",
   }
 ];
 
@@ -83,13 +92,18 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="AI"
+          isSelected={tag === "AI"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Hackathon"
+          isSelected={tag === "Hackathon"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Research"
+          isSelected={tag === "Research"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

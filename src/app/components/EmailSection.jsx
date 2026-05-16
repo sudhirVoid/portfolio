@@ -13,12 +13,16 @@ const EmailSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
-          Let&apos;s Connect
+          Let&apos;s Build AI Solutions Together
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          {`I'm always eager to explore new opportunities and collaborations! My inbox is always buzzing, waiting for your message - whether you have a question, a project in mind, or just want to chat. I'll respond with excitement and look forward to creating something amazing together!`}
+          {`Open to global opportunities in AI Engineering, LLM Development, and Full Stack roles. Whether you're looking for someone to build intelligent agents, RAG systems, or scalable cloud-native applications - I'm ready to contribute. Currently based in India, open to relocation and remote work.`}
           <br />
+          <br />
+          <span className="text-primary-400">📧 bhandarisudhir4274@gmail.com</span>
+          <br />
+          <span className="text-primary-400">📱 +91-7652844292</span>
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/sudhirVoid" target="_blank">
